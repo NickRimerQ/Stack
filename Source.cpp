@@ -9,7 +9,10 @@ int main()
 	}
 	art.pop();
 	art.print();
+
+
 	cout << "Last element of the stack is " << art.Top() << endl;
+	cout << "Number of elements is " << art.retsize() << endl;
 	art.isEmpty();
 	art.isFull();
 	return 0;
