@@ -17,6 +17,7 @@ public:
 	void pop();
 	T Top();
 	void print();
+	int retsize();
 	bool isEmpty();
 	bool isFull();
 };
