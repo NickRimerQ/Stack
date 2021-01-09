@@ -67,6 +67,12 @@ void Stack<T>::print()
 }
 
 template<typename T>
+int Stack<T>::retsize()
+{
+	return size;
+}
+
+template<typename T>
 bool Stack<T>::isEmpty()
 {
 	if (top == -1)
